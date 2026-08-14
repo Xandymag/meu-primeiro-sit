@@ -162,3 +162,20 @@ p {
         font-size: 80px; 
     }
 }
+p {
+    font-size: 16px;
+    /* tamanho do texto */
+    margin-bottom: 20px; /* DIMINUÍMOS DE 50px PARA 20px PARA O BOTÃO SUBIR */
+}
+
+.botao-carrinho {
+    display: inline-block; /* ISSO FORÇA O BOTÃO A APARECER INTEIRO NA TELA */
+    background: #a3be52;
+    padding: 10px 20px;
+    border-radius: 20px;
+    /* arredondar a borda */
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
