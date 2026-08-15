@@ -36,6 +36,7 @@ body::after {
     font-weight: bold;
     /* grossura da fonte */
     opacity: 0.5;
+    z-index:1;
 }
 
 /* after(depois) / before(antes) */
