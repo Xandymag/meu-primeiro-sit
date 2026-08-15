@@ -56,23 +56,6 @@ h1 {
     font-size: 70px;
 }
 
-p {
-    font-size: 16px;
-    /* tamanho do texto */
-    margin-bottom: 50px;
-}
-
-.botao-carrinho {
-    background: #a3be52;
-    padding: 10px 20px;
-    border-radius: 20px;
-    /* arredondar a borda */
-    font-size: 16px;
-    color: black;
-    cursor: pointer;
-    transition: 0.5s;
-}
-
 .botao-carrinho:hover {
     opacity: 0.7;
     /* transparencia */
@@ -129,6 +112,7 @@ p {
 .rosa {
     background: #ff9eb5;
 }
+
 /* REGRAS PARA TELAS MENORES (CELULARES E TABLETS) */
 @media (max-width: 900px) {
     body {
@@ -162,6 +146,7 @@ p {
         font-size: 80px; 
     }
 }
+
 p {
     font-size: 16px;
     /* tamanho do texto */
