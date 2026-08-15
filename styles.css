@@ -65,6 +65,7 @@ h1 {
     width: 600px;
     transform: rotate(-50deg);
     z-index:-1
+    position:relative;
 }
 
 .caixa-principal {
