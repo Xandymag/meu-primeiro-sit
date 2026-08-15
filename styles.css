@@ -64,6 +64,7 @@ h1 {
 .imagem-tenis {
     width: 600px;
     transform: rotate(-50deg);
+    z-index:-1
 }
 
 .caixa-principal {
